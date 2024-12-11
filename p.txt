@@ -1,0 +1,32 @@
+Inicio()
+    Repetir 3 veces
+    Hacer
+        entero numero -> 10
+        decimal resultado -> numero por 2.9
+        esVerdad activo -> si
+        palabra mensaje -> "Hola, Traductor"
+        Escribe("Iteración completada")
+
+        Repetir 3 veces
+        Hacer
+            entero numero -> 10
+            decimal resultado -> numero por 2.9
+            esVerdad activo -> si
+            palabra mensaje -> "Hola, Traductor"
+            Escribe("Iteración completada")
+        Fin
+    Fin
+
+    entero total -> 100
+    Escribe("Programa terminado")
+
+    entero numero -> 10
+
+
+    SI (numero > 5)
+    Hacer
+        Escribe("Mayor que 5")
+    SINO
+        Escribe("Menor o igual a 5")
+    Fin
+Terminar

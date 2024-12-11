@@ -1,0 +1,160 @@
+1. Ejemplo de uso básico con variables y print
+rust
+Copiar código
+Inicio ()
+    palabra saludo -> "Hola, ¿cómo estás?"
+    entero edad -> 25
+    Escribe ("Saludos: " + saludo)
+    Escribe ("Edad: " + edad)
+Terminar
+2. Ejemplo con input y operaciones matemáticas
+scss
+Copiar código
+Inicio ()
+    decimal numero1 -> 0
+    decimal numero2 -> 0
+    Lee ('Introduce el primer número: ')
+    Lee ('Introduce el segundo número: ')
+    
+    decimal suma -> numero1 mas numero2
+    decimal resta -> numero1 menos numero2
+    decimal multiplicacion -> numero1 por numero2
+    decimal division -> numero1 entre numero2
+    
+    Escribe ('La suma es: ' + suma)
+    Escribe ('La resta es: ' + resta)
+    Escribe ('La multiplicación es: ' + multiplicacion)
+    Escribe ('La división es: ' + division)
+Terminar
+3. Ejemplo de ciclos (for y while)
+rust
+Copiar código
+Inicio ()
+    entero contador -> 0
+    Repetir 5 veces
+        Hacer
+            Escribe ('Contador: ' + contador)
+            contador -> contador mas 1
+        Fin
+
+    entero numero -> 10
+    Mientras (numero > 0)
+        Hacer
+            Escribe ('Número decreciendo: ' + numero)
+            numero -> numero menos 1
+        Fin
+Terminar
+4. Ejemplo con condicionales
+java
+Copiar código
+Inicio ()
+    entero edad -> 20
+    
+    SI (edad >= 18)
+        Hacer
+            Escribe ('Eres mayor de edad')
+        Fin
+    SINO
+        Hacer
+            Escribe ('Eres menor de edad')
+        Fin
+Terminar
+5. Ejemplo de funciones
+rust
+Copiar código
+Receta suma (entero num1, entero num2)
+    Hacer
+        entero resultado -> num1 mas num2
+        regresar resultado
+    Fin
+
+Inicio ()
+    entero numero1 -> 5
+    entero numero2 -> 7
+    entero resultadoSuma -> suma (numero1, numero2)
+    
+    Escribe ('El resultado de la suma es: ' + resultadoSuma)
+Terminar
+6. Ejemplo de arreglos
+scss
+Copiar código
+Inicio ()
+    Arreglo entero numeros -> [1, 2, 3, 4, 5]
+    
+    Escribe ('El primer número es: ' + numeros[0])
+    
+    numeros.agrega (6)
+    Escribe ('Los números después de agregar 6: ' + numeros)
+    
+    numeros.elimina (3)
+    Escribe ('Los números después de eliminar el 3: ' + numeros)
+    
+    numeros.elimina-en (0)
+    Escribe ('Los números después de eliminar el primero: ' + numeros)
+Terminar
+7. Ejemplo de matrices
+lua
+Copiar código
+Inicio ()
+    Matriz entera matrix1 -> [[1, 2, 3], [4, 5, 6]]
+    Matriz entera matrix2 -> [[7, 8, 9], [10, 11, 12]]
+    
+    Escribe ('Elemento en matrix1[1][2]: ' + matrix1[1][2])
+    Escribe ('Resultado de la suma de matrices: ' + (matrix1 + matrix2))
+    Matriz entera matrixTranspuesta -> matrix1.Transpuesta
+    Escribe ('Transpuesta de matrix1: ' + matrixTranspuesta)
+Terminar
+8. Ejemplo de uso de comparaciones booleanas
+rust
+Copiar código
+Inicio ()
+    entero numero -> 5
+    esVerdad esMayor -> si
+    
+    SI (numero > 3)
+        Hacer
+            esVerdad esMayor -> si
+            Escribe ('El número es mayor que 3')
+        Fin
+    SINO
+        Hacer
+            esVerdad esMayor -> no
+            Escribe ('El número no es mayor que 3')
+        Fin
+Terminar
+9. Ejemplo con operaciones avanzadas (potenciación y raíz)
+csharp
+Copiar código
+Inicio ()
+    decimal base -> 2
+    entero exponente -> 3
+    decimal potencia -> base potencia exponente
+    decimal numeroRaiz -> 25
+    decimal raiz -> numeroRaiz raiz 5
+    
+    Escribe ('La potencia de ' + base + ' elevado a ' + exponente + ' es: ' + potencia)
+    Escribe ('La raíz de ' + numeroRaiz + ' es: ' + raiz)
+Terminar
+10. Ejemplo con uso combinado de ciclos, condicionales y funciones
+java
+Copiar código
+Receta procesarNumeros (entero numero)
+    Hacer
+        SI (numero % 2 == 0)
+            Hacer
+                Escribe ('El número ' + numero + ' es par')
+            Fin
+        SINO
+            Hacer
+                Escribe ('El número ' + numero + ' es impar')
+            Fin
+    Fin
+
+Inicio ()
+    Repetir 5 veces
+        Hacer
+            entero numero -> 1
+            procesarNumeros (numero)
+            numero -> numero mas 1
+        Fin
+Terminar
